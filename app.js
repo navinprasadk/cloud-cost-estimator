@@ -28,7 +28,7 @@ const app = new App({
 });
 
 // This defines the message that your app will post to pull requests.
-const messageForNewPRs = "Thanks for opening a new PR! Please follow our contributing guidelines to make your PR easier to review.";
+const messageForNewPRs = "Thanks for opening a new PR! Pull requests are like fine wine – they get better with age (and good comments)!";
 
 // This adds an event handler that your code will call later. When this event handler is called, it will log the event to the console. Then, it will use GitHub's REST API to add a comment to the pull request that triggered the event.
 async function handlePullRequestOpened({octokit, payload}) {
